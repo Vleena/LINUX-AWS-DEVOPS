@@ -1,2 +1,1 @@
-# LINUX-AWS-DEVOPS
-LINUX-AWS-DEVOPS
+#Linux Basic Scripts
