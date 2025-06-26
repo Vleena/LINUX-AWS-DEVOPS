@@ -1,0 +1,24 @@
+pipeline{
+    agent any
+    stages{
+        stage('Build and test') {
+            stages{
+                stage('compile'){
+                    steps {
+                            echo "Compiling the code"
+                    }
+                }
+                stage('Unit testing stage'){
+                    steps {
+                            echo "testing started"
+                         }
+                 }
+            }
+        }
+        stage('Deployment'){
+            steps {
+                echo "Deploy Stage"
+        }
+        }
+    }
+}
