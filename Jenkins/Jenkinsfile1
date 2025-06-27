@@ -1,0 +1,38 @@
+pipeline{
+    agent {
+        label 'dev'
+    }
+    stages{
+        stage('ServerInfo'){
+            steps{
+                sh'''
+                echo "Server Info"
+                uname -a
+                '''
+                }
+        }
+        stage('os-details'){
+            steps{
+                sh '''
+                echo "OS Details"
+                cat /etc/os-release
+                '''
+            }
+        }
+        stage('Disk-space'){
+            steps{
+                sh '''
+                echo "Disk Space"
+                df -h
+                }
+        }
+        stage('CPU-details'){
+            steps{
+                sh '''
+                echo "CPU details"
+                lscpu
+                '''
+                }
+        }
+}
+}
