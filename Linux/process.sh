@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ###############################
-#Title:- 
-#Description:- 
+#Title:- ps commands usages
+#Description:- system process commands
 #Version:-v1
 
 ################################
