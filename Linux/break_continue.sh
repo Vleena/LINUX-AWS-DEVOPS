@@ -3,7 +3,7 @@
 
 #################
 #Author: Vleena
-# Description: 
+# Description : print the odd numbers from 1 to 4  
 # Version: V1
 
 ###########################
