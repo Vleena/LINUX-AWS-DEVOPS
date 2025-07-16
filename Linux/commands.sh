@@ -4,7 +4,7 @@
 #####################
 # Author: Vleena
 # Description: listing some comman Linux commands
-# Version: V1
+# Version: V2
 
 ######################
 
@@ -17,3 +17,5 @@ df -h
 nproc
 
 ps -ef|awk -v var="process-id:" -F" " '{print var,$2}' #print all the process ids
+
+echo "Hello, everyone. Welcome to the Bash shell" >> welcome_page.txt
