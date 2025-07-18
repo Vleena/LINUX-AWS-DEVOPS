@@ -1,3 +1,3 @@
 import sys
 
-print("The pyhton version:", sys.version)
+print("The python version is:", sys.version)
