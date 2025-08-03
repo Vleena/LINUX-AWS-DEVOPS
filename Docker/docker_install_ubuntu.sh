@@ -5,4 +5,4 @@ sudo apt-get install docker.io -y
 
 sudo usermod -aG docker ubuntu
 
-exit
+logout
